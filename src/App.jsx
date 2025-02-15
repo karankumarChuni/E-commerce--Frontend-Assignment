@@ -1,10 +1,10 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './store/store';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import ProductGrid from './components/ProductGrid';
-import CartModal from './components/CartModal';
+import React from "react";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import ProductGrid from "./components/ProductGrid";
+import CartModal from "./components/CartModal";
 
 const App = () => {
   return (
